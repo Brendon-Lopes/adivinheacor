@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  background-color: rgba(220, 245, 255, 0.7);
+  min-width: fit-content;
+  width: 40%;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: green;
+  background-image:url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  font-size: 3.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#rgb-color {
+  font-size: 2em;
+  text-align: center;
+}
+
+#score {
+  margin-top: 0.6em;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+#balls-container {
+  text-align: center;
+}
+
+#answer {
+  margin-top: 1em;
+  font-size: 2em;
+  text-align: center;
+}
+
+#btn-container {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#reset-game {
+  display: inline-block;
+  font-size: 1em;
+  padding: 0.2em 0.4em;
+  border: 1px solid rgb(63, 63, 63);
+  border-radius: 4px;
+}
+
+#reset-game:hover {
+  cursor: pointer;
+}
+
+.ball {
+  margin-top: 3em;
+  display: inline-block;
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.ball:hover {
+  cursor: pointer;
+}
